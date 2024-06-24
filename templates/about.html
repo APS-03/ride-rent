@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{%load static%}
+
+{% block title %} RideRent-About Us {% endblock title %}
+
+{%block style%}
+<style>
+  .bg-image {
+    background-image: url("{% static 'img/background.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  h1{
+    color: #570808;
+  }
+
+  h2{
+    color: #570808;
+  }
+
+  p{
+    color: #5B3535;
+  }
+</style>
+{%endblock style%}
+  
+
+{% block body %}
+
+  <div class="jumbotron p-5 text-white rounded bg-image" style="height:560px;">
+    <div class="col-md-6 px-0" style="margin:95px; padding: 20px; border-radius: 10px;">
+      <h1 class="display-4" style="font-size:80px">About Us!</h1>
+      <p class="lead my-3">Welcome to RideRent — Your Trusted Car Rental Partner..! <br> 
+        At RideRent, we believe that every journey deserves a comfortable, reliable, and enjoyable ride. Established in 20, we have grown to become one of the leading car rental providers, known for our commitment to quality service, a diverse fleet of vehicles, and customer satisfaction.</p>
+      <a class="btn btn-dark btn-lg" href="#123" role="button">Learn more</a>
+    </div>
+  </div>
+  <!--
+  <div class="jumbotron p-5 text-white rounded bg-info" style="height:560px;">
+    <div class="col-md-6 px-0" style="margin:95px">
+      <h1 class="display-4 " style="font-size:80px">About Us!</h1>
+      <p class="lead my-3" style="">Welcome to RideRent — Your Trusted Car Rental Partner..! <br> 
+        At RideRent, we believe that every journey deserves a comfortable, reliable, and enjoyable ride. Established in 20, we have grown to become one of the leading car rental providers, known for our commitment to quality service, a diverse fleet of vehicles, and customer satisfaction.</p>
+      {% comment %} <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p> {% endcomment %}
+      <a class="btn btn-dark btn-lg" href="#123" role="button">Learn more</a>
+    </div>
+  </div>-->
+  
+  <div class="p-3 mb-2 text-info" id="123">
+    <div class="row m-5" >
+        <div class="container fluid px-0" style="color: #8B1515"><h1 class="text-center">Who We Are?</h1></div>
+          <p style="font-size:20px; text-align:center;">We are a passionate team dedicated to transforming your travel experience. Our mission is to provide you with the perfect vehicle for every occasion, whether you’re planning a weekend getaway, a business trip, or simply need a reliable car for daily errands. With a focus on innovation and customer-centric service, we strive to make every aspect of car rental hassle-free and convenient.</p>
+    </div>
+  </div>
+
+  <hr style="height:2px;border-width:0;color:brown;background-color: brown; margin-top:35px ">
+  <div class="p-3 mb-2 text-info" id="123">
+    <div class="row m-5" >
+        <div class="container fluid px-0"><h1 class="text-center">Our Vision</h1></div>
+          <p style="font-size:20px; text-align:center">To redefine car rental by offering exceptional service, a wide range of vehicles, and innovative solutions that cater to the diverse needs of our customers. We aim to be your go-to choice for all car rental needs, setting new standards for quality and reliability.</p>
+    </div>
+  </div>
+
+  <hr style="height:2px;border-width:0;color:brown;background-color: brown; margin-top:35px ">
+  <div class="p-3 mb-2  text-info" id="123">
+    <div class="row m-5" >
+        <div class="container fluid px-0"><h1 class="text-center">Why Choose Us?</h1></div>
+        <div class="col-xl-4">
+          <br>
+          <div class="container fluid px-0" >
+            <img src = "{%static "img/trustworthy.jpg"%}" width="300" height="300" style="background-color:white ;border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:60px" >
+          </div>
+          <br>
+          <h2 class="hd my-2 " style=" text-align:center">Safe</h2>
+          <p style="font-size:20px; text-align:center">Most trustworthy website for renting a vehicle in World. All the vehicles are well maintained and in good condition. Servicing is done after every two weeks.</p>
+        
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+          <br>
+          <div class="container" >
+            <img src = "{%static "img/price.jpg"%}" width="300" height="300"  style=" background-color: white;border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:60px" >
+          </div>
+          <br>
+          <h2 class="hd my-2 " style=" text-align:center">Reasonable Prices</h2>
+          <p style="font-size:20px ; text-align:center">All the rent are in affordable prices. If there is a problem in the vehicle, there is a return back policy. Payment can be made online safely </p>
+         
+        </div><!-- /.col-lg-4 -->
+        <div class="col-xl-4">
+          <br>
+          <div class="container-center" >
+            <img src = "{%static "img/reliability.jpg"%}" width="300" height="300"  style=" background-color: white;border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-left:60px" >
+          </div>
+          <br>
+          <h2 class="hd my-2" style=" text-align:center">Reliable Service</h2>
+          <p style="font-size:20px ; text-align:center">We operate with transparency, honesty, and a commitment to ethical practices. </p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+    </div> 
+{% endblock body %}

@@ -1,0 +1,55 @@
+body{
+    background-color:aliceblue";
+}
+
+nav{
+    background-color: #0e1261;
+}
+
+/* --------------------- Home Page ------------------- */
+.container{
+    margin-bottom:25px;
+    margin-top : 25px
+}
+
+.container h1{
+    font-size:50px ; 
+    color:rgb(87, 8, 8);
+}
+
+.container p{
+    text-align: center; 
+    margin-top: 50px; 
+    font-size: 25px ; 
+    color : rgb(139, 21, 21);
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    color:brown;
+    background-color:brown; 
+    margin-top:35px; 
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.copyright{
+    padding: 40px;
+}
+
+/* -------------- about us page ------------------------ */
+/* -------------- Contact us page ------------------------ */
+.h-100 gradient-form{
+    background-color: #eee;
+}
+
+.col-lg-6 .d-flex .align-items-center .gradient-custom-2{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
