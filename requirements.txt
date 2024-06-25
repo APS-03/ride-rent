@@ -5,6 +5,7 @@ fastjsonschema==2.19.1
 fonttools==4.47.2
 fqdn==1.5.1
 googletrans==4.0.0rc1
+gunicorn==20.0.4
 gTTS==2.3.2
 gTTS-token==1.1.4
 guidata==3.3.0
